@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: column;
+  background-image: url("./images/seamlessspace_0.PNG");
+  
 }
 
 .App-logo {
@@ -30,4 +34,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+
+  color: white;
+}
+
+
+.cards-div {
+
+    margin: 3% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+
+.card {
+
+  display: flex;
+  flex-flow: column;
+  flex-basis: 10%;
+  margin-bottom: 2%;
+}
+
+.card img {
+
+  flex-basis: 50%;
+  max-width: 25vw;
+  min-width: 25vw;
+  max-height: 25vw;
+  min-height: 25vw;
+  box-shadow: 0 4px 8px 0 rgba(241, 0, 20, 0.442), 0 6px 20px 0 rgba(145, 0, 241, 0.21);
+  color: white;
+}
+
+.card-text {
+
+  border: 10px dashed red;
+  background: white;
+  padding: 3%;
+  opacity: .8;
+  text-align: left;
+ 
+}
+
+.toggle {
+  color: white;
+  font-size: 75%;
+  opacity: .5;
+}
+
+.button-div {
+
+  margin-bottom: 3%;
 }
